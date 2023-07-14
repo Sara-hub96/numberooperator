@@ -11,8 +11,10 @@ public class Main {
         boolean firstStatement = b % 2 != 0;
         boolean secondStatement = (b * (b + 1)) % 3 == 0;
 
-        System.out.println(firstStatement);
-        System.out.println(secondStatement);
+        if (firstStatement && secondStatement){
+            System.out.println("le condizioni sono soddisfatte");
+        }else{
+            System.out.println("le condizioni non sono soddisfatte");
+        }
     }
-
 }
